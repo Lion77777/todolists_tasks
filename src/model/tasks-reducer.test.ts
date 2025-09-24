@@ -1,6 +1,5 @@
 import { beforeEach, expect, test } from "vitest";
 import { TasksState } from "../App";
-import { v1 } from "uuid";
 import { changeTaskStatusAC, changeTaskTitleAC, createTaskAC, deleteTaskAC, tasksReducer } from "./tasks-reducer";
 import { createTodolistAC, deleteTodolistAC } from "./todolists-reducer";
 
